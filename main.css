@@ -54,8 +54,10 @@ animation-iteration-count: infinite;
 animation-timing-function: linear;
 position: absolute;
   }
+
   .about {
     display: flex;
+    position: relative;
     align-items: center;
     justify-content: space-around;
     padding-bottom: 115px;
@@ -64,6 +66,13 @@ position: absolute;
   background-position: center;
   background-size: cover;
   }
+
+ .orb-canvas {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    right: 0;
+ }
   .about h1 {
     font-size: 70px;
     line-height: 76px;
